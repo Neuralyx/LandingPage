@@ -45,16 +45,16 @@ function App() {
             <div className="container-icon-network">
               <FaInstagram
                 size={30}
-                onClick={() =>
-                  (window.location.href =
-                    "https://www.instagram.com/neuralyx.dev/")
-                }
+                // onClick={() =>
+                //   (window.location.href =
+                //     "https://www.instagram.com/neuralyx.dev/")
+                // }
               />
               <FaWhatsapp
                 size={30}
-                onClick={() =>
-                  (window.location.href = "https://wa.link/1mc4h6")
-                }
+                // onClick={() =>
+                //   (window.location.href = "https://wa.link/1mc4h6")
+                // }
               />
             </div>
 
