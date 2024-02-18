@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { GlobalTheme } from "@/style/Global";
+import { GlobalTheme } from "../../style/Global";
 
 export const ContainerButton = styled.button`
   width: 208px;

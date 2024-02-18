@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ladingpage-dev-20417-authRole",
+      "UnauthRoleArn": "arn:aws:iam::381492012824:role/amplify-ladingpage-dev-20417-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::381492012824:role/amplify-ladingpage-dev-20417-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ladingpage-dev-20417-deployment",
+      "UnauthRoleName": "amplify-ladingpage-dev-20417-unauthRole",
+      "StackName": "amplify-ladingpage-dev-20417",
+      "StackId": "arn:aws:cloudformation:us-east-1:381492012824:stack/amplify-ladingpage-dev-20417/07367550-ce02-11ee-94e8-0ebf27250f4f",
+      "AmplifyAppId": "d3cawqgwnscbmk"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
