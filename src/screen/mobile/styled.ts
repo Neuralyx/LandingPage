@@ -15,7 +15,6 @@ export const GlobaStyled = styled.div<IStyled>`
 
 export const ContainerMobile = styled(GlobaStyled)`
   background: linear-gradient(#1f0740 0%, #37067b 100%);
-  height: 100vh;
 `;
 
 export const ContainerPageMobile = styled.div``;
@@ -28,7 +27,6 @@ export const ContentMainMobile = styled.div`
   gap: 10px;
   flex-direction: column;
   overflow-y: scroll;
-  max-height: 1000px;
   align-items: center;
 
   .content-header_info .top-welcome {
@@ -36,13 +34,15 @@ export const ContentMainMobile = styled.div`
   }
 
   .content-header_info .top-title {
-    font-size: 80px;
+    font-size: 60px;
     line-height: 60px;
     margin: 10px 0;
   }
 
   .button-pay {
     margin-top: 50px;
+
+    margin-bottom: 100px;
   }
 
   &::-webkit-scrollbar {
@@ -51,7 +51,7 @@ export const ContentMainMobile = styled.div`
 `;
 
 export const ContentFooter = styled(GlobaStyled)`
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
