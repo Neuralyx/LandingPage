@@ -59,3 +59,15 @@ export const ContainerHeader = styled.div`
     }
   }
 `;
+
+export const ContainerHeaderMobile = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  .header-h1_mobile {
+    font-size: 30px;
+  }
+`;

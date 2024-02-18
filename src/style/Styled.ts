@@ -1,7 +1,21 @@
 import styled from "styled-components";
 import { GlobalTheme } from "./Global";
 
-const ContainerPage = styled.div``;
+const ContainerPage = styled.div`
+  .home-mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .home-windows {
+      display: none;
+    }
+
+    .home-mobile {
+      display: block;
+    }
+  }
+`;
 
 const ContentPage = styled.div``;
 
@@ -57,13 +71,6 @@ const ContentMain = styled.div`
     p {
       font-size: 18px;
     }
-  }
-
-  .left-content .container-icon-network {
-    display: flex;
-    flex-direction: row;
-    width: 70px;
-    justify-content: space-between;
   }
 
   .left-content .container-button {
